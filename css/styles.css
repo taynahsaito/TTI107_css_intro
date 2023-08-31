@@ -1,0 +1,60 @@
+/* seletor por id */
+#titulo{
+    color: green;
+    text-align: center;
+}
+/* selecionando apenas elementos do tipo p que tenha id = descrição */
+p#descricao{
+    color:blue
+}
+/* . = se refere a uma classe */
+p.promocao{
+    text-align: center;
+    background-color: lightgreen;
+}
+h1.promocao{
+    color: yellow;
+}
+.nova{
+    color: white;
+}
+
+p.final-pagina#rodape{
+    background-color: lightgray;
+    text-align: center;
+}
+/* dois seletores usando virgula: */
+.curso, .novo-curso, #contato{
+    /* padding = espaço entre o conteudo e a borda */
+    padding: 12px;
+    background-color: aliceblue;
+    border: 1px solid lightgray;
+}
+.novo-curso{
+    color: red;
+}
+
+/* todo curso tem essa cor de fundo
+.curso{
+    background-color: aliceblue;
+}
+
+.novo-curso{
+    background-color: aliceblue;
+    color: red;
+} */
+
+
+
+
+/* seletores */
+/* seletor por tipo */
+p {
+    color: blue;
+}
+h1 {
+    color: green;
+}
+strong {
+    color: red;
+}
